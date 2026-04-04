@@ -89,3 +89,25 @@ body {
 .product-shadow {
   position: absolute;
 }
+
+.cart {
+  display: none;
+}
+
+.cart.cart_active {
+  display: block;
+}
+
+.cart__product-remove {
+  cursor: pointer;
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.flying-image {
+  pointer-events: none;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
